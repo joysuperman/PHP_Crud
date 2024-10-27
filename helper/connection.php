@@ -1,9 +1,9 @@
 <?php
+    date_default_timezone_set("Asia/Dhaka");
     define('HOST', 'localhost');
     define('USER', 'root');
-    define('PASSWORD', 'admin');
+    define('PASSWORD', 'root');
     define('DATABASE', 'php_crud');
-    date_default_timezone_set("Asia/Dhaka");
 
     class Database{
         public $host = HOST;

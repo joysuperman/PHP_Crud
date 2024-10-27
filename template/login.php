@@ -1,7 +1,6 @@
 <?php
 require_once 'functions.php';
-head($root);
-include ($root.'/template/template_parts/navbar.php');
+head();
 ?>
     <main style="margin-top: 50px;">
 
@@ -20,4 +19,4 @@ include ($root.'/template/template_parts/navbar.php');
     </main>
 
 
-<?php footer($root); ?>
+<?php footer(); ?>

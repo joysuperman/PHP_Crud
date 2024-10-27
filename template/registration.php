@@ -1,8 +1,6 @@
 <?php
     require_once 'functions.php';
     head();
-    include ('template/template_parts/navbar.php');
-
     include_once ('classes/Register.php');
     $reg = new Register();
 
